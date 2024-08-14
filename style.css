@@ -1,0 +1,219 @@
+@font-face {
+    font-family: yarix;
+    src: url(fonts/Orbitron-VariableFont_wght.ttf);
+}
+html{
+    font-family: yarix;
+    color-scheme: dark;
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+}
+header{
+    width: 100%;
+    height: 500px;
+}
+.HNav{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.622);
+}
+.HNav>center>ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 90%;
+    height: 100px;
+    font-size: 35px;
+    margin: 0;
+}
+.HNav>center>ul>a{
+    color: white;
+    text-decoration: none;
+}
+header>iframe{
+    width: 100%;
+    height: 500px;
+}
+p{
+    margin: 0;
+}
+.blocks{
+    margin-bottom: 50px;
+}
+.title{
+    font-size: 55px;
+    margin: 50px 0 50px 0;
+}
+.titletext{
+    display: flex;
+    flex-direction: column;
+    width: 560px;
+    
+}
+.left{
+    margin-left: 105px;
+}
+.left2{
+    margin-right: 105px;
+}
+.right{
+    margin-right: 105px;
+}
+.right2{
+    margin-left: 105px;
+}
+.text{
+    font-size: 25px;
+   
+}
+.ok{
+    font-size: 25px;
+    width: 90%;
+    display: flex;
+    text-align: center;
+}
+.aboutrow{
+    display: flex;
+    width: 100%;
+    margin-top: 35px;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 125px;
+}
+.img{
+    height: 400px;
+    
+}
+.img>img{
+    height: 400px;
+}
+.play{
+    background-image: url(images/button.png);
+    background-size: 100%;
+    width: 400px;
+    height: 120px;
+    border-radius: 15px;
+
+}
+.yarix{
+    background-image: url(images/Logo_YariX.png);
+    background-size: 100%;
+    width: 240px;
+    height: 230px;
+    border-radius: 15px;
+
+}
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 45px 0 45px 0;
+}
+.integration{
+    height: 90px;
+    width: 90px;
+    border-radius: 90px;
+    transition: 0.5s;
+    margin: 10px;
+}
+.integration:hover{
+    height: 110px;
+    width: 110px;
+    border-radius: 110px;
+}
+
+.reddit{
+    background-image: url(images/reddit_icon_texture.png);
+    background-size: 100%;
+}
+.boosty{
+    background-image: url(images/boosty_ico_texture.png);
+    background-size: 100%;
+}
+.patreon{
+    background-image: url(images/patreon_ico_texture.png);
+    background-size: 100%;
+}
+.twitch{
+    background-image: url(images/twitch_icon.png);
+    background-size: 100%;
+}
+
+.ds{
+    background-image: url(images/Dicrod_icon.png);
+    background-size: 100%;
+}
+.x{
+    background-image: url(images/x-icon.avif);
+    background-size: 100%;
+}
+.insta{
+    background-image: url(images/insta_icon_texture.png);
+    background-size: 100%;
+}
+.youtube{
+    background-image: url(images/yt_icon.png);
+    background-size: 100%;
+}
+.tg{
+    background-image: url(images/Telegram_icon.png);
+    background-size: 100%;
+}
+.integrations{
+    display: flex;
+}
+footer{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 320px;
+    margin-top: 55px;
+}
+.logoimg{
+    width: 150px;
+    height: 150px;
+}
+.earc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.rating{
+    margin-top: 50px;
+}
+.row>img{
+    width: 70px;
+    margin-left: 20px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 75px;
+    width: 50%;
+}
+.realrow{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 25px;
+}
+.rating{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logoimg{
+    border: 2px solid buttonborder;
+    border-radius: 15px;
+}
